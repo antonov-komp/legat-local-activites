@@ -1,0 +1,19 @@
+<? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
+
+$MESS['LEGATCOMPANYDIRECTORS_FIELD_UNP'] = 'УНП';
+$MESS['LEGATCOMPANYDIRECTORS_FIELD_PAGE'] = 'Страница';
+$MESS['LEGATCOMPANYDIRECTORS_ERR_EMPTY_UNP'] = 'Не указан УНП.';
+$MESS['LEGATCOMPANYDIRECTORS_ERR_NO_API_KEY'] = 'Не задан ключ API Legat: local/legat_api_key.php (LEGAT_BY_DATA_API_KEY) или Option main.legat_by_data_api_key.';
+$MESS['LEGATCOMPANYDIRECTORS_ERR_HTTP'] = 'Ошибка HTTP при обращении к Legat (код: #CODE#).';
+$MESS['LEGATCOMPANYDIRECTORS_ERR_JSON'] = 'Некорректный JSON в ответе Legat.';
+$MESS['LEGATCOMPANYDIRECTORS_ERR_API'] = 'Ошибка API Legat: #MSG#';
+$MESS['LEGATCOMPANYDIRECTORS_OK'] = 'Запрос к Legat выполнен успешно.';
+$MESS['LEGATCOMPANYDIRECTORS_ACTIVE_YES'] = 'действующая запись';
+$MESS['LEGATCOMPANYDIRECTORS_ACTIVE_NO'] = 'историческая запись';
+$MESS['LEGATCOMPANYDIRECTORS_LINE_NAME'] = 'ФИО: #NAME#';
+$MESS['LEGATCOMPANYDIRECTORS_LINE_DATE_BEGIN'] = 'Начало в роли: #DATE#';
+$MESS['LEGATCOMPANYDIRECTORS_LINE_DATE_END'] = 'Окончание в роли: #DATE#';
+$MESS['LEGATCOMPANYDIRECTORS_LINE_DATE_UPDATE'] = 'Дата обновления: #DATE#';
+$MESS['LEGATCOMPANYDIRECTORS_LINE_REESTR'] = 'Источник: #NAME# (reestr_id=#ID#)';
+$MESS['LEGATCOMPANYDIRECTORS_LINE_REESTR_ID'] = 'Источник: reestr_id=#ID#';
+$MESS['LEGATCOMPANYDIRECTORS_LINE_ACTIVE'] = 'Активность: #ACTIVE#';

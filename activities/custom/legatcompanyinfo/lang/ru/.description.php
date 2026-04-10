@@ -1,0 +1,20 @@
+<? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
+
+$MESS['LEGATCOMPANYINFO_DESCR_NAME'] = 'Legat - Общие сведения о компании';
+$MESS['LEGATCOMPANYINFO_DESCR_DESCR'] = 'Получает общие сведения о компании по УНП через API Legat; результат разбит на отдельные поля доп. результатов.';
+$MESS['LEGATCOMPANYINFO_DESCR_FIELD_ADDITIONAL_INFO'] = 'Статус запроса';
+$MESS['LEGATCOMPANYINFO_DESCR_FIELD_GENERAL'] = 'Общие сведения (тип, УНП, наименования, адрес, ОКПО)';
+$MESS['LEGATCOMPANYINFO_DESCR_FIELD_TAX_AUTHORITY'] = 'Налоговая инспекция';
+$MESS['LEGATCOMPANYINFO_DESCR_FIELD_REGISTRATION'] = 'Регистрация и учёт';
+$MESS['LEGATCOMPANYINFO_DESCR_FIELD_STATUS'] = 'Статусы МНС и ЕГР';
+$MESS['LEGATCOMPANYINFO_DESCR_FIELD_FUND'] = 'ФСЗН / УНПФ';
+$MESS['LEGATCOMPANYINFO_DESCR_FIELD_COURTS'] = 'Приказное и исковое производство';
+$MESS['LEGATCOMPANYINFO_DESCR_FIELD_PROCUREMENT'] = 'Закупки, договоры, госзакупки';
+$MESS['LEGATCOMPANYINFO_DESCR_FIELD_SALES'] = 'Торговые объекты';
+$MESS['LEGATCOMPANYINFO_DESCR_FIELD_CONSUMER_KGK'] = 'Бытовое обслуживание и проверки';
+$MESS['LEGATCOMPANYINFO_DESCR_FIELD_BANKRUPT'] = 'Банкротство и ликвидация';
+$MESS['LEGATCOMPANYINFO_DESCR_FIELD_DEBT'] = 'Задолженность (даты)';
+$MESS['LEGATCOMPANYINFO_DESCR_FIELD_FINANCE'] = 'Финансовая отчётность';
+$MESS['LEGATCOMPANYINFO_DESCR_FIELD_RISK_REGISTERS'] = 'Риски и реестры (ФСЗН, НГБ, гарантии, СЭЗ и др.)';
+$MESS['LEGATCOMPANYINFO_DESCR_FIELD_LICENSES'] = 'Лицензии, разрешения, аттестаты, БелТПП, сертификаты';
+$MESS['LEGATCOMPANYINFO_DESCR_FIELD_COUNTERS'] = 'Счётчики (знаки, филиалы РФ, реестры)';
